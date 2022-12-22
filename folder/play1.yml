@@ -1,0 +1,9 @@
+- hosts: localhost
+  become: yes
+  tasks:
+  - name: Change file ownership, group and permissions
+    file:
+      path: /etc/foo.conf
+      owner: foo
+      group: foo
+      mode: '0644'
