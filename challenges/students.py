@@ -23,3 +23,12 @@ students = to_nested_dict(data_list)
 students_json = json.dumps(students, indent=4)
 
 print(students_json)
+
+
+'''
+To dynamically create a variable
+
+for key, value in my_dict.items():
+    globals()[key] = value
+    
+'''
