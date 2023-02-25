@@ -2,7 +2,7 @@
 
 Get the name of the operating system \
 
-**`os_name = platform.system()`**
+**`os_name = platform.system()`** \
 **`print(os_name)`**
 
 Get the release version of the operating system \
