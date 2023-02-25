@@ -1,6 +1,6 @@
 **`import shutil `**
 
- Copy a file from source to destination
+ Copy a file from source to destination \
 **`shutil.copy(source, destination)`**
 
  Copy a file from source to destination preserving metadata
