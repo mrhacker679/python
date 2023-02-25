@@ -1,10 +1,10 @@
 import platform
 
 Get the name of the operating system
-
-** os_name = platform.system() **
-** print(os_name) **
-
+```
+**os_name = platform.system()**
+**print(os_name)**
+```
 Get the release version of the operating system
 ** ```os_release = platform.release()
 print(os_release) ``` **
