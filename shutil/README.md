@@ -12,7 +12,7 @@
  Remove a file or directory
 `shutil.rmtree(path)`
 
- Move a file or directory from source to destination
+ Move a file or directory from source to destination (or to rename)
 `shutil.move(source, destination)`
 
  Create a zip archive of a file or directory
